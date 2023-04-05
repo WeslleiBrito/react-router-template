@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import { MainContainer } from "../style";
 
-function ProfilePage() {
+export function ProfilePage() {
 
   return (
     <MainContainer>

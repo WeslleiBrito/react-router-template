@@ -6,7 +6,7 @@ export const StyledHeader = styled.header`
     justify-content: space-evenly;
     align-items: center;
     background-color: orange;
-    height: 4rem;
+    height: 11vh;
     width: 100vw;
 `
 
@@ -32,4 +32,29 @@ export const MainContainer = styled.div`
     justify-content: space-between;
     height: 40vh;
     width: 100vw;
+`
+
+export const ContainerButtons = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+`
+
+export const ContainerPageLogin = styled.main`
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+`
+
+export const ContainerLogin = styled.section`
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+`
+
+export const InputText = styled.input``
+
+
+export const ButtonLogin = styled.button`
 `

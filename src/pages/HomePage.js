@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import { MainContainer} from "../style";
 
-function HomePage() {
+export function HomePage() {
   return (
     <MainContainer>
       <Header />
